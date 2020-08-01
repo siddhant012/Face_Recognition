@@ -1,3 +1,6 @@
+#Just specify the values inside the main function and ignore other utility and helper functions.Comments have been added to help understand better.
+
+
 import keras
 import numpy as np
 import cv2
