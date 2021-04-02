@@ -1,2 +1,2 @@
 # Face_Recognition
-A real time face recognition system based on haarcascade frontal face classifier (for detection) and facenet (for recognition) by transfer learning with functionality to record faces and their ID's through webcam or read from disc. On recognizing a face , the corresponding ID will be displayed.
+A real time face recognition system based on haarcascade frontal face classifier (for detection) and facenet (for recognition). Faces are first recorded and a corresponding ID number is taken as input. Face embeddings are generated and stored in disk. For recognition, face embeddings are compared with the live feed and the id corresponding to the closest matching face is the output if the simmilarity is more than a threshold value.
